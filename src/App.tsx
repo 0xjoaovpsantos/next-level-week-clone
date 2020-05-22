@@ -1,10 +1,11 @@
 import React from 'react';
 import GlobalStyle from './styles/global';
+import Apresentation from './components/Apresentation';
 
 const App: React.FC = () => (
   <>
     <GlobalStyle />
-    <h1>Teste</h1>
+    <Apresentation />
   </>
 );
 
