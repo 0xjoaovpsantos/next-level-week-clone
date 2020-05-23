@@ -1,5 +1,13 @@
 import React from 'react';
 
-const Apresentation: React.FC = () => <div>Apresentation</div>;
+import { Container, Content, Information } from './styles';
+
+const Apresentation: React.FC = () => (
+  <Container>
+    <Content>
+      <Information></Information>
+    </Content>
+  </Container>
+);
 
 export default Apresentation;
