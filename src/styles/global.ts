@@ -11,7 +11,7 @@ export default createGlobalStyle`
 
  body {
    color: #a8a8b3;
-   background-color: inherit;
+   background-color: #121214;
    margin: 0px;
  }
 
