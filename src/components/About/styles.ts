@@ -14,9 +14,21 @@ export const Content = styled.div`
   align-items: center;
   justify-content: space-between;
 
+  @media only screen and (max-width: 1160px) {
+    flex-direction: column;
+
+    img {
+      max-width: 277px;
+    }
+  }
+
   div {
     margin-top: 250px;
     max-width: 520px;
+
+    @media only screen and (max-width: 1160px) {
+      margin-top: 64px;
+    }
   }
 
   div h2 {
@@ -24,10 +36,19 @@ export const Content = styled.div`
     font-size: 48px;
     max-width: 382px;
     margin-bottom: 40px;
+
+    @media only screen and (max-width: 960px) {
+      font-size: 32px;
+    }
   }
 
   div p {
     line-height: 1.5;
+    font-size: 18px;
+
+    @media only screen and (max-width: 640px) {
+      font-size: 15px;
+    }
   }
 
   div p:first-of-type {
