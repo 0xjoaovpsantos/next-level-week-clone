@@ -15,7 +15,7 @@ export const Content = styled.div`
   justify-content: space-between;
 
   div {
-    margin-top: 120px;
+    margin-top: 250px;
     max-width: 520px;
   }
 
@@ -30,7 +30,15 @@ export const Content = styled.div`
     line-height: 1.5;
   }
 
-  p:first-child {
+  div p:first-of-type {
     color: #04d361;
+  }
+
+  div p:not(:first-of-type) {
+    color: #a8a8b3;
+  }
+
+  div p:not(:last-child) {
+    margin-bottom: 40px;
   }
 `;
