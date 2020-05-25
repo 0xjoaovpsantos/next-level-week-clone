@@ -4,6 +4,7 @@ import GlobalStyle from './styles/global';
 import Apresentation from './components/Apresentation/';
 import About from './components/About';
 import Methods from './components/Methods';
+import Pillars from './components/Pillas';
 
 const App: React.FC = () => (
   <>
@@ -11,6 +12,7 @@ const App: React.FC = () => (
     <Apresentation />
     <About />
     <Methods />
+    <Pillars />
   </>
 );
 
