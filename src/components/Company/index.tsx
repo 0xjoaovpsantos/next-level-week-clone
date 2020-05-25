@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Content } from './styles';
+import { Container, Content, Grid } from './styles';
 
 import companyLogo from '../../assets/rocketseat.svg';
 
@@ -11,24 +11,32 @@ const Company: React.FC = () => (
         <h2>Sobre a Rocketseat</h2>
         <img src={companyLogo} alt="Rocketseat logo" />
       </div>
-      <div>
+      <Grid>
         <div>
-          <h3>8 mil</h3>
+          <h3>
+            <b>8</b> mil
+          </h3>
           <p>Alunos treinados nos bootcamps</p>
         </div>
         <div>
-          <h3>173 mil</h3>
+          <h3>
+            <b>173</b> mil
+          </h3>
           <p>Alunos iniciados nos cursos gratuitos</p>
         </div>
         <div>
-          <h3>50 mil</h3>
+          <h3>
+            <b>50</b> mil
+          </h3>
           <p>Membros na comunidade aberta</p>
         </div>
         <div>
-          <h3>330 mil</h3>
+          <h3>
+            <b>330</b> mil
+          </h3>
           <p>Devs impactados no Brasil</p>
         </div>
-      </div>
+      </Grid>
     </Content>
   </Container>
 );
