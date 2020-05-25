@@ -7,6 +7,7 @@ import Methods from './components/Methods';
 import Pillars from './components/Pillas';
 import Instructors from './components/Instructors';
 import Company from './components/Company';
+import Guests from './components/Guests';
 
 const App: React.FC = () => (
   <>
@@ -17,6 +18,7 @@ const App: React.FC = () => (
     <Pillars />
     <Instructors />
     <Company />
+    <Guests />
   </>
 );
 
