@@ -21,9 +21,17 @@ export const Information = styled.div`
   div:first-of-type {
     max-width: 448px;
 
+    @media only screen and (max-width: 960px) {
+      margin: 0 auto;
+    }
+
     h2 {
       font-size: 48px;
       color: #e1e1e6;
+
+      @media only screen and (max-width: 960px) {
+        font-size: 32px;
+      }
     }
 
     p {
@@ -39,11 +47,21 @@ export const Information = styled.div`
     margin-left: auto;
     position: relative;
 
+    @media only screen and (max-width: 960px) {
+      max-width: 186px;
+      margin: 0 auto;
+      margin-top: 80px;
+    }
+
     p {
       font-size: 36px;
       color: #7159c1;
       line-height: 1.5;
       z-index: 2;
+
+      @media only screen and (max-width: 960px) {
+        font-size: 20px;
+      }
 
       b {
         color: #04d361;
@@ -59,6 +77,15 @@ export const Information = styled.div`
       width: 555px;
       height: 555px;
       background: url(${icon4Img}) center no-repeat;
+
+      @media only screen and (max-width: 960px) {
+        width: 220px;
+        height: 220px;
+        top: -5%;
+        right: 0;
+        background-size: 100% 100%;
+        background: url(${icon3Img}) center no-repeat;
+      }
     }
   }
 `;
@@ -73,9 +100,19 @@ export const StepOne = styled.div``;
 export const StepTwo = styled.div`
   margin-top: -125px;
   margin-left: auto;
+
+  @media only screen and (max-width: 1070px) {
+    margin-top: 80px;
+    margin-left: 0px;
+  }
 `;
 
-export const StepThree = styled.div``;
+export const StepThree = styled.div`
+  margin-top: 0px;
+  @media only screen and (max-width: 1070px) {
+    margin-top: 80px;
+  }
+`;
 
 export const Step = styled.div`
   position: relative;
@@ -87,6 +124,10 @@ export const Step = styled.div`
     font-size: 36px;
     color: #e1e1e6;
 
+    @media only screen and (max-width: 1070px) {
+      font-size: 20px;
+    }
+
     span {
       position: absolute;
       font-weight: 700;
@@ -95,6 +136,11 @@ export const Step = styled.div`
       font-size: 192px;
       z-index: -1;
       color: #202024;
+
+      @media only screen and (max-width: 1070px) {
+        font-size: 120px;
+        top: -50px;
+      }
     }
   }
 
