@@ -9,6 +9,7 @@ import Instructors from './components/Instructors';
 import Company from './components/Company';
 import Guests from './components/Guests';
 import Description from './components/Description';
+import Disclaimer from './components/Disclaimer';
 
 const App: React.FC = () => (
   <>
@@ -21,6 +22,7 @@ const App: React.FC = () => (
     <Company />
     <Guests />
     <Description />
+    <Disclaimer />
   </>
 );
 
