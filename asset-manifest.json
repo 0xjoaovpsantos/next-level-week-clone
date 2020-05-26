@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/next-level-week-clone/static/js/main.fece62a6.chunk.js",
-    "main.js.map": "/next-level-week-clone/static/js/main.fece62a6.chunk.js.map",
+    "main.js": "/next-level-week-clone/static/js/main.c1e49fde.chunk.js",
+    "main.js.map": "/next-level-week-clone/static/js/main.c1e49fde.chunk.js.map",
     "runtime-main.js": "/next-level-week-clone/static/js/runtime-main.59b8ff07.js",
     "runtime-main.js.map": "/next-level-week-clone/static/js/runtime-main.59b8ff07.js.map",
     "static/js/2.b9c69bdf.chunk.js": "/next-level-week-clone/static/js/2.b9c69bdf.chunk.js",
     "static/js/2.b9c69bdf.chunk.js.map": "/next-level-week-clone/static/js/2.b9c69bdf.chunk.js.map",
     "index.html": "/next-level-week-clone/index.html",
-    "precache-manifest.86aafbb6c15b29744fd59ac20365e558.js": "/next-level-week-clone/precache-manifest.86aafbb6c15b29744fd59ac20365e558.js",
+    "precache-manifest.b72657c924588fcef7509cd5c620dd1b.js": "/next-level-week-clone/precache-manifest.b72657c924588fcef7509cd5c620dd1b.js",
     "service-worker.js": "/next-level-week-clone/service-worker.js",
     "static/js/2.b9c69bdf.chunk.js.LICENSE.txt": "/next-level-week-clone/static/js/2.b9c69bdf.chunk.js.LICENSE.txt",
     "static/media/about.svg": "/next-level-week-clone/static/media/about.91f5a32c.svg",
@@ -28,6 +28,6 @@
   "entrypoints": [
     "static/js/runtime-main.59b8ff07.js",
     "static/js/2.b9c69bdf.chunk.js",
-    "static/js/main.fece62a6.chunk.js"
+    "static/js/main.c1e49fde.chunk.js"
   ]
 }
