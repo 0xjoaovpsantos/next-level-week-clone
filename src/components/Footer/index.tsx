@@ -52,43 +52,49 @@ const Footer: React.FC = () => (
               </div>
             </div>
           </div>
-          <h1>Participe e bora codar!</h1>
+          <p>
+            <b>Importante:</b> o conteúdo dessa semana só estará disponível
+            durante o evento, que vai do dia 1 a 7 de Junho
+          </p>
         </div>
       </Information>
+      <br />
+      <br />
+      <br />
+      <br />
       <div>
-        <p>
-          <b>Importante:</b> o conteúdo dessa semana só estará disponível
-          durante o evento, que vai do dia 1 a 7 de Junho
-        </p>
+        <h2>Participe e bora codar!</h2>
         <button type="button">INSCRIÇÃO GRATUITA</button>
       </div>
     </Content>
     <footer>
       <div>
-        <img src={companyLogo} alt="Logo da Rocketseat" />
-        <p>2020 © Todos os direitos reservados</p>
-      </div>
-      <div>
-        <a href="https://rocketseat.com.br/direitos-autorais">
-          Direitos autorais
-        </a>
-        <a href="https://rocketseat.com.br/termos-de-uso">Termos de uso</a>
-        <a href="https://rocketseat.com.br/politica-de-privacidade">
-          Política de privacidade
-        </a>
-        <button type="button">
-          <svg
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 24 24"
-            height="18"
-            width="18"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path>
-          </svg>
-        </button>
+        <div>
+          <img src={companyLogo} alt="Logo da Rocketseat" />
+          <p>2020 © Todos os direitos reservados</p>
+        </div>
+        <div>
+          <a href="https://rocketseat.com.br/direitos-autorais">
+            Direitos autorais
+          </a>
+          <a href="https://rocketseat.com.br/termos-de-uso">Termos de uso</a>
+          <a href="https://rocketseat.com.br/politica-de-privacidade">
+            Política de privacidade
+          </a>
+          <button type="button">
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              height="18"
+              width="18"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
   </Container>
