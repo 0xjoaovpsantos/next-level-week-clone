@@ -10,7 +10,9 @@ const Guests: React.FC = () => (
     <Content>
       <img src={guestsImg} alt="Guests" />
       <div>
-        <h2>Convidados especiais em breve!</h2>
+        <h2>
+          Convidados especiais <b>em breve!</b>
+        </h2>
         <img src={icon2Img} />
       </div>
     </Content>
