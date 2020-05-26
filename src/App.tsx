@@ -8,8 +8,8 @@ const App: React.FC = () => (
   <>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes />
-      <GlobalStyle />
     </BrowserRouter>
+    <GlobalStyle />
   </>
 );
 
