@@ -86,6 +86,21 @@ export const Content = styled.div`
   margin: 0 auto;
   padding: 0 20px;
 
+  > div > p {
+    display: none;
+
+    @media only screen and (max-width: 960px) {
+      margin-top: 40px;
+      display: block;
+      max-width: 420px;
+      font-size: 14px;
+      line-height: 1.5;
+      b {
+        color: #04d361;
+      }
+    }
+  }
+
   div:not(:first-of-type) {
     display: flex;
     justify-content: space-between;
@@ -133,24 +148,6 @@ export const Content = styled.div`
       @media only screen and (max-width: 640px) {
         font-size: 15px;
       }
-    }
-
-    p {
-      display: none;
-
-      @media only screen and (max-width: 960px) {
-        margin-top: 40px;
-        display: block;
-        max-width: 420px;
-        font-size: 14px;
-        line-height: 1.5;
-        b {
-          color: #04d361;
-        }
-      }
-    }
-
-    > div > button {
     }
   }
 `;
