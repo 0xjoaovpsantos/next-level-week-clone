@@ -24,7 +24,7 @@ Clone do site da Next Level Week:
 
 ## 💡 Sobre o projeto:
 
-Desenvolvi esse projeto com o intuito de praticar e estudar mais sobre o ecossitema do React para construção de aplicações. Peguei essa landing page de início para poder replicar usando a biblioteca styled-components
+Desenvolvi esse projeto com o intuito de praticar e estudar mais sobre o ecossitema do React para construção de aplicações. Peguei essa landing page de início para poder replicar usando a biblioteca styled-components, e também a praticar o uso de conventional commits.
 
 ## 🔥 O que aprendemos?
 
@@ -34,6 +34,7 @@ Através dessa aplicação pratiquei mais sobre:
 - Usar a biblioteca Styled Components para estilização
 - Criação de aplicações responsivas
 - Prática em criação de landing pages
+- Uso de conventional commits
 
 ## ⚙️ Techs:
 
