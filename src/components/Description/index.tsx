@@ -1,13 +1,20 @@
 import React from 'react';
 
-import { Container, Content } from './styles';
-
-import icon3Img from '../../assets/icon3.svg';
+import {
+  Container,
+  Content,
+  Information,
+  StepByStep,
+  Step,
+  StepOne,
+  StepTwo,
+  StepThree,
+} from './styles';
 
 const Description: React.FC = () => (
   <Container>
     <Content>
-      <div>
+      <Information>
         <div>
           <h2>Mas afinal, o que é o próximo nível?</h2>
           <p>
@@ -23,62 +30,68 @@ const Description: React.FC = () => (
             <b>o aprendizado é contínuo e sempre haverá um próximo nível.</b>
           </p>
         </div>
-      </div>
-      <div>
-        <div>
-          <h3>
-            <span>01</span>
-            Legal
-            <br />e o que é um dev?
-          </h3>
-          <p>
-            É a pessoa responsável por transformar linhas de código em soluções
-            que tornam a vida das pessoas mais fácil, como um aplicativo de
-            transporte por exemplo.
-          </p>
-          <p>
-            <b>Dev é a abreviação de developer</b>: uma palavra que não tem
-            gênero. Ou seja, um dev pode ser tanto um programador quanto uma
-            programadora.
-          </p>
-        </div>
-        <div>
-          <h3>
-            <span>02</span>
-            E esse evento
-            <br />é pra mim?
-          </h3>
-          <p>
-            Nessa edição o foco do NLW será o universo JavaScript: a tecnologia
-            essencial para todos os devs que trabalham ou pretendem trabalhar
-            com web.
-          </p>
-          <p>
-            <b>Se você é apaixonado por código</b>, está em busca de evolução e
-            não se cansa de aprender coisas novas todos os dias, esse evento é
-            para você.
-          </p>
-        </div>
-        <div>
-          <h3>
-            <span>03</span>
-            O que eu vou levar
-            <br />
-            desse evento?
-          </h3>
-          <p>
-            Aprendizado prático de novas ferramentas, hacks para sua carreira e
-            um trabalho incrível para colocar no seu portfólio.
-          </p>
-          <p>
-            Lembre que certificados não acrescentam nada na sua carreira,
-            <b>
-              a coisa mais importante que você pode levar daqui é o
-              conhecimento.
-            </b>
-          </p>
-        </div>
-      </div>
+      </Information>
+      <StepByStep>
+        <StepOne>
+          <Step>
+            <h3>
+              <span>01</span>
+              Legal
+              <br />e o que é um dev?
+            </h3>
+            <p>
+              É a pessoa responsável por transformar linhas de código em
+              soluções que tornam a vida das pessoas mais fácil, como um
+              aplicativo de transporte por exemplo.
+            </p>
+            <p>
+              <b>Dev é a abreviação de developer</b>: uma palavra que não tem
+              gênero. Ou seja, um dev pode ser tanto um programador quanto uma
+              programadora.
+            </p>
+          </Step>
+        </StepOne>
+        <StepTwo>
+          <Step>
+            <h3>
+              <span>02</span>
+              E esse evento
+              <br />é pra mim?
+            </h3>
+            <p>
+              Nessa edição o foco do NLW será o universo JavaScript: a
+              tecnologia essencial para todos os devs que trabalham ou pretendem
+              trabalhar com web.
+            </p>
+            <p>
+              <b>Se você é apaixonado por código</b>, está em busca de evolução
+              e não se cansa de aprender coisas novas todos os dias, esse evento
+              é para você.
+            </p>
+          </Step>
+        </StepTwo>
+        <StepThree>
+          <Step>
+            <h3>
+              <span>03</span>
+              O que eu vou levar
+              <br />
+              desse evento?
+            </h3>
+            <p>
+              Aprendizado prático de novas ferramentas, hacks para sua carreira
+              e um trabalho incrível para colocar no seu portfólio.
+            </p>
+            <p>
+              Lembre que certificados não acrescentam nada na sua carreira,
+              <b>
+                a coisa mais importante que você pode levar daqui é o
+                conhecimento.
+              </b>
+            </p>
+          </Step>
+        </StepThree>
+      </StepByStep>
     </Content>
   </Container>
 );
