@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { shade } from 'polished';
+
 export const Container = styled.section`
   background-color: #121214;
 
@@ -24,10 +26,23 @@ export const Container = styled.section`
         max-width: 500px;
         width: 100%;
 
+        @media only screen and (max-width: 960px) {
+          align-items: flex-start;
+          max-width: 160px;
+        }
+
+        @media only screen and (max-width: 960px) {
+          flex-direction: column;
+        }
+
         a {
           color: #e1e1e6;
           font-size: 14px;
           text-decoration: none;
+
+          @media only screen and (max-width: 960px) {
+            margin-top: 10px;
+          }
         }
 
         button {
@@ -37,6 +52,10 @@ export const Container = styled.section`
           border: none;
           margin-left: 64px;
           border-radius: 5px;
+
+          @media only screen and (max-width: 960px) {
+            display: none;
+          }
 
           svg {
             color: #04d361;
@@ -48,6 +67,11 @@ export const Container = styled.section`
         justify-content: space-between;
         max-width: 404px;
         width: 100%;
+
+        @media only screen and (max-width: 960px) {
+          max-width: 120px;
+        }
+
         p {
           font-size: 14px;
         }
@@ -67,10 +91,19 @@ export const Content = styled.div`
     justify-content: space-between;
     align-items: center;
 
+    @media only screen and (max-width: 960px) {
+      flex-direction: column;
+    }
+
     h2 {
       font-size: 48px;
       color: #e1e1e6;
       max-width: 580px;
+
+      @media only screen and (max-width: 960px) {
+        font-size: 32px;
+        margin-bottom: 40px;
+      }
     }
 
     button {
@@ -86,13 +119,34 @@ export const Content = styled.div`
       transition: all 0.2s;
       box-shadow: 0px 6px 0px rgba(113, 89, 193, 0.6);
       text-transform: uppercase;
+      transition: background-color 0.2s;
+
+      &:hover {
+        background: ${shade(-0.2, '#7159c1')};
+      }
 
       @media only screen and (max-width: 960px) {
-        max-width: 100%;
+        font-size: 20px;
+        line-height: 100px;
       }
 
       @media only screen and (max-width: 640px) {
         font-size: 15px;
+      }
+    }
+
+    p {
+      display: none;
+
+      @media only screen and (max-width: 960px) {
+        margin-top: 40px;
+        display: block;
+        max-width: 420px;
+        font-size: 14px;
+        line-height: 1.5;
+        b {
+          color: #04d361;
+        }
       }
     }
 
@@ -102,6 +156,10 @@ export const Content = styled.div`
 `;
 
 export const Information = styled.div`
+  @media only screen and (max-width: 960px) {
+    display: none;
+  }
+
   div {
     display: flex;
     justify-content: space-between;

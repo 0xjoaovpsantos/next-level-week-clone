@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { shade } from 'polished';
+
 import backgroundImage from '../../assets/background_apresentation.svg';
 
 export const Container = styled.section`
@@ -76,6 +78,12 @@ export const Information = styled.div`
     transition: all 0.2s;
     box-shadow: 0px 6px 0px rgba(113, 89, 193, 0.6);
     text-transform: uppercase;
+
+    transition: background-color 0.2s;
+
+    &:hover {
+      background: ${shade(-0.2, '#7159c1')};
+    }
 
     @media only screen and (max-width: 960px) {
       max-width: 100%;

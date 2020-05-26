@@ -65,6 +65,10 @@ const Footer: React.FC = () => (
       <div>
         <h2>Participe e bora codar!</h2>
         <button type="button">INSCRIÇÃO GRATUITA</button>
+        <p>
+          <b>Importante:</b> o conteúdo dessa semana só estará disponível
+          durante o evento, que vai do dia 1 a 7 de Junho
+        </p>
       </div>
     </Content>
     <footer>
