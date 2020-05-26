@@ -10,6 +10,7 @@ import Company from './components/Company';
 import Guests from './components/Guests';
 import Description from './components/Description';
 import Disclaimer from './components/Disclaimer';
+import Footer from './components/Footer';
 
 const App: React.FC = () => (
   <>
@@ -23,6 +24,7 @@ const App: React.FC = () => (
     <Guests />
     <Description />
     <Disclaimer />
+    <Footer />
   </>
 );
 
