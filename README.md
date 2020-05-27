@@ -84,7 +84,7 @@ Autor: <a alt="João Victor Pereira Santos" href="https://github.com/joaovictorp
 
 <p align="center">
 
-  <a alt="João Victor Pereira Santos Linkedin" href="https://www.linkedin.com/in/joao-victor-pereira-santos//">
+  <a alt="João Victor Pereira Santos Linkedin" href="https://www.linkedin.com/in/joao-victor-pereira-santos/">
     <img src="https://img.shields.io/badge/LinkedIn-Jo%C3%A3o%20Victor%20Pereira%20Santos-blue?logo=linkedin"/></a>
   <a alt="João Victor Pereira Santos GitHub" href="https://github.com/joaovictorpsantos">
   <img src="https://img.shields.io/badge/GitHub-joaovictorpsantos-lightgrey?logo=github"/></a>
