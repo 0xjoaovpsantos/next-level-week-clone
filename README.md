@@ -28,7 +28,7 @@
 <img alt="Commits" src="https://img.shields.io/github/last-commit/joaovictorpsantos/next-level-week-clone?color=7159c1&style=flat-square">
 </a>
 
-<br/>
+<br/><br/>
 <div style="display:flex">
 <img src="assets_readme/video1.gif" width="400px">
 <img src="assets_readme/video2.gif" style="margin-left:3px"  width="400px">
