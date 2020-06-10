@@ -1,9 +1,32 @@
-<h2 align="center">
-
 <img src="assets_readme/rocketseat_logo.png">
-<br/><br/>
-Clone do site da Next Level Week:
-<a href="https://joaovictorpsantos.github.io/next-level-week-clone/">https://joaovictorpsantos.github.io/next-level-week-clone/</a><br/><br/>
+
+# Landing Page da NextLevelWeek 1.0
+
+> Clone da Landing Page da primeira versão do NLW, para ver o resultado <a href="https://joaovictorpsantos.github.io/next-level-week-clone/">clique aqui</a>.
+
+<a href="https://github.com/joaovictorpsantos">
+<img alt="Autor" src="https://img.shields.io/badge/autor-JoãoVictorPereiraSantos-7159c1?style=flat-square">
+</a>
+
+<a href="#">
+<img alt="Linguagens" src="https://img.shields.io/github/languages/count/joaovictorpsantos/next-level-week-clone?color=7159c1&style=flat-square">
+</a>
+
+<a href="https://github.com/joaovictorpsantos/next-level-week-clone/stargazers">
+<img alt="Stars" src="https://img.shields.io/github/stars/joaovictorpsantos/next-level-week-clone?color=7159c1&style=flat-square">
+</a>
+
+<a href="https://github.com/joaovictorpsantos/next-level-week-clone/network/members">
+<img alt="Forks" src="https://img.shields.io/github/forks/joaovictorpsantos/next-level-week-clone?color=7159c1&style=flat-square">
+</a>
+
+<a href="#">
+<img alt="Tamanho do código em bytes" src="https://img.shields.io/github/languages/code-size/joaovictorpsantos/next-level-week-clone?color=7159c1&style=flat-square">
+</a>
+
+<a href="https://github.com/joaovictorpsantos/next-level-week-clone/commits/master">
+<img alt="Commits" src="https://img.shields.io/github/last-commit/joaovictorpsantos/next-level-week-clone?color=7159c1&style=flat-square">
+</a>
 
 <br/>
 <div style="display:flex">
